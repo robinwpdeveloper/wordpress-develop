@@ -35,7 +35,7 @@ if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
 	/* translators: %s: Page number. */
 	echo esc_html( ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) ) );
 }
-
+ 
 ?>
 	</title>
 <link rel="profile" href="https://gmpg.org/xfn/11" />
